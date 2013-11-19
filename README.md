@@ -50,6 +50,20 @@ Useful SVG icon to use when building a responsive site and in need of a mobile i
 <img src="menu-icon.svg">
 ```
 
+##$PATH fix on Mac
+
+Open $PATH to edit: `touch ~/.bash_profile; open ~/.bash_profile`
+
+Add following to the file to reset bash commands: `export PATH="$HOME/.rbenv/bin:$PATH"`
+
+You can add more commands (i.e. gdal commands) to make sure they work in your terminal environment well. 
+
+GDAL: `export PATH=/Library/Frameworks/GDAL.framework/Programs:$PATH`
+
+Save the file, quit the terminal to reset your environment or reset bash via: `source ~/.bash_profile`
+
+Make sure it's working with: `echo $PATH`
+
 ##target="_blank" everywhere
 
 Single-line, jQuery script to convert all links on the page that navigate outside of the current website to create new tabs. This prevents people from accidentally closing a site by adding the `target='_blank'` attribute.
