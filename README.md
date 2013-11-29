@@ -73,3 +73,32 @@ $('a[href^="http://"], a[href^="https://"]').not('a[href*="your_domain"]').attr(
 ```
 
 Currently only finds `<a href="">` tags with "http" and "https" that do NOT include the root directory name or domain name specified.
+
+##CSS3 transitions
+
+Transition any change to the element's style by placing the cross-browser specifications to the element's CSS properties.
+
+```CSS
+-o-transition:.5s;
+-ms-transition:.5s;
+-moz-transition:.5s;
+-webkit-transition:.5s;
+transition:.5s;
+```
+
+##Change properties based on scroll height (jQuery)
+
+I use this for changing a page element's CSS properties when the user scrolls down. Good for changing properties on menus to keep them sticky or change their size.
+
+```JS
+$(window).scroll(function() {
+	var scroll = $(window).scrollTop();
+	if ( scroll < 40 ) { //page height variable
+		$("#element").css({'your css properties'});
+	}
+	else {
+		$("#element").css({'your css properties back to normal'});
+	}
+});
+```
+
