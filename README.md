@@ -102,3 +102,14 @@ $(window).scroll(function() {
 });
 ```
 
+##Box Sizing
+
+Prevent borders and padding form expanding beyond the bounds of your container element in CSS. 
+
+```CSS
+box-sizing:border-box;	
+-moz-box-sizing:border-box;	
+-webkit-box-sizing:border-box;
+```
+	
+
