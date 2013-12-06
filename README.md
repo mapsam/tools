@@ -111,5 +111,22 @@ box-sizing:border-box;
 -moz-box-sizing:border-box;	
 -webkit-box-sizing:border-box;
 ```
-	
+
+##Standard Media Queries
+
+Just a quick set of media queries to start with when building a responsive website.
+
+```CSS
+@media (min-width: 996px) {
+}
+
+@media (max-width: 995px) and (min-width: 768px) {
+}
+ 
+@media (max-width: 767px) and (min-width: 481px) { 
+}
+
+@media (max-width: 480px) { 
+}
+```
 
