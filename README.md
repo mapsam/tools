@@ -130,3 +130,11 @@ Just a quick set of media queries to start with when building a responsive websi
 }
 ```
 
+##HTML <meta> tag for Media Queries
+
+In order for you mobile devices to correctly use your `@media` queries you'll have to make sure the `<meta>` tag is set appropriately.
+
+```HTML
+<meta name="viewport" content="width=device-width, initial-scale=1.0;">
+```
+
