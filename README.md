@@ -79,11 +79,11 @@ Currently only finds `<a href="">` tags with "http" and "https" that do NOT incl
 Transition any change to the element's style by placing the cross-browser specifications to the element's CSS properties.
 
 ```CSS
--o-transition:.5s;
--ms-transition:.5s;
--moz-transition:.5s;
--webkit-transition:.5s;
-transition:.5s;
+-webkit-transition: 0.2s;
+-moz-transition: 0.2s;
+-ms-transition: 0.2s;
+-o-transition: 0.2s;
+transition: 0.2s;
 ```
 
 ##Change properties based on scroll height (jQuery)
@@ -102,9 +102,9 @@ $(window).scroll(function() {
 });
 ```
 
-##Box Sizing
+##Box Sizing: Border Box
 
-Prevent borders and padding form expanding beyond the bounds of your container element in CSS. 
+Prevent borders and padding form expanding beyond the bounds of your container element in CSS (i.e. it pushes the padding inwards).
 
 ```CSS
 box-sizing:border-box;	
