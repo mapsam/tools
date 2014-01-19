@@ -112,6 +112,17 @@ box-sizing:border-box;
 -webkit-box-sizing:border-box;
 ```
 
+##Full Cover Background CSS
+
+Ensure a background image covers the entire element space.
+
+```CSS
+-webkit-background-size: cover; 
+-moz-background-size: cover; 
+-o-background-size: cover; 
+background-size: cover;
+```
+
 ##Standard Media Queries
 
 Just a quick set of media queries to start with when building a responsive website.
