@@ -1,6 +1,29 @@
 Web Trix
 ========
 
+##vertically centered, variable content
+
+```CSS
+.outer {
+  display: table;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+```
+
+```HTML
+<div class="outer">
+  <div class="inner">
+    Centered Text
+  </div>
+</div>
+```
+
 ##clearfix
 
 I mostly use this when I'm ensuring the *footer* of a site gets pushed beneath all of my content that is split into two floating div elements. Does the trick and works from IE6 and beyond.
