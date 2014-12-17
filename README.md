@@ -4,6 +4,11 @@ Web Trix
 ##vertically centered, variable content
 
 ```CSS
+.custom-div {
+  position:relative; /* important for the .outer div */
+  width:200px;
+  height:200px;
+}
 .outer {
   display: table;
   position: absolute;
@@ -17,9 +22,11 @@ Web Trix
 ```
 
 ```HTML
-<div class="outer">
-  <div class="inner">
-    Centered Text
+<div class="custom-div">
+  <div class="outer">
+    <div class="inner">
+      <!-- Vertically centered content -->
+    </div>
   </div>
 </div>
 ```
