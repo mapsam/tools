@@ -7,6 +7,14 @@ Links, docs, snippets for web and software development.
 * https://picsum.photos/
 * https://placehold.co/
 
+### meta tags
+
+* https://metatags.io/
+* https://developers.facebook.com/tools/debug/
+* https://cards-dev.twitter.com/validator
+* https://www.linkedin.com/post-inspector/inspect/
+* https://search.google.com/structured-data/testing-tool
+
 ### vertically centered, variable content
 
 ```CSS
