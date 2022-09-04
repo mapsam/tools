@@ -1,7 +1,13 @@
-Web Trix
-========
+# tools
 
-##vertically centered, variable content
+Links, docs, snippets for web and software development.
+
+### images
+
+* https://picsum.photos/
+* https://placehold.co/
+
+### vertically centered, variable content
 
 ```CSS
 .custom-div {
@@ -31,7 +37,7 @@ Web Trix
 </div>
 ```
 
-##clearfix
+### clearfix
 
 I mostly use this when I'm ensuring the *footer* of a site gets pushed beneath all of my content that is split into two floating div elements. Does the trick and works from IE6 and beyond.
 
@@ -56,7 +62,7 @@ I mostly use this when I'm ensuring the *footer* of a site gets pushed beneath a
 <div class="cf"></div>
 ```
 
-##Mobile Menu SVG Icon
+### Mobile Menu SVG Icon
 
 Useful SVG icon to use when building a responsive site and in need of a mobile image instead of showing the whole row. Thanks to [CSS Tricks](http://css-tricks.com/three-line-menu-navicon/) for linking me to this.
 
@@ -80,7 +86,9 @@ Useful SVG icon to use when building a responsive site and in need of a mobile i
 <img src="menu-icon.svg">
 ```
 
-##$PATH fix on Mac
+# Bash
+
+### $PATH fix on Mac
 
 Open $PATH to edit: `touch ~/.bash_profile; open ~/.bash_profile`
 
@@ -94,7 +102,7 @@ Save the file, quit the terminal to reset your environment or reset bash via: `s
 
 Make sure it's working with: `echo $PATH`
 
-##target="_blank" everywhere
+### target="_blank" everywhere
 
 Single-line, jQuery script to convert all links on the page that navigate outside of the current website to create new tabs. This prevents people from accidentally closing a site by adding the `target='_blank'` attribute.
 
@@ -104,7 +112,7 @@ $('a[href^="http://"], a[href^="https://"]').not('a[href*="your_domain"]').attr(
 
 Currently only finds `<a href="">` tags with "http" and "https" that do NOT include the root directory name or domain name specified.
 
-##CSS3 transitions
+### CSS3 transitions
 
 Transition any change to the element's style by placing the cross-browser specifications to the element's CSS properties.
 
